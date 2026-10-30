@@ -12,21 +12,37 @@ header {
     color: #fff;
     padding: 10px 0;
     text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1rem;
+    justify-content: space-between;
+}
+
+header img {
+    border-radius: 20%;
+    overflow: hidden;
+}
+
+header h1 {
+    /*Forgot this doesn't make it dynamic but whatever it looks better than before.*/
+    font-size: 400%;
 }
 
 /* Styling for team logo image */
 .team-logo {
     width: 150px; /* Adjust the size as needed */
-    margin-top: 10px;
 }
 
 /* Menu button styling */
 header nav {
-    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }
 
 .bio {
-    background-color: var(--clr-white);
+    background: white;
     border-radius: 12px;
     padding: 2rem;
     box-shadow: 0 0px 40px rgba(76, 74, 74, 0.242);
