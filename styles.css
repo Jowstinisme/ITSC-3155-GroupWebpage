@@ -25,6 +25,25 @@ header nav {
     margin-top: 10px;
 }
 
+.bio {
+    background-color: var(--clr-white);
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: 0 0px 40px rgba(76, 74, 74, 0.242);
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.pfp {
+    width: 7rem;
+    object-fit: cover;
+    height: 7rem;
+    border-radius: 50%;
+    overflow: hidden;
+    aspect-ratio: 1 / 1;
+}
+
 header nav button {
     background: #007BFF;
     color: white;
@@ -58,6 +77,7 @@ header nav button:hover {
     flex: 1 1 calc(30% - 40px);
     text-align: center;
     transition: transform 0.2s;
+    justify-items: center;
 }
 
 .card:hover {
