@@ -118,8 +118,9 @@ h2 {
 /* Initially hide bio details */
 .bio {
     display: none;
-    margin-top: 10px;
+    margin: auto;
     color: #555;
+    justify-content: center;
 }
 
 /* Button styling */
