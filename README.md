@@ -1,5 +1,5 @@
 # ITSC-3155-GroupWebpage
-
+!!USED AI TO GENERATE TEAM LOGO & SREE'S MOODBOARD!!
 ## TODO
 - [X] Each member can make a branch or work on main.
 - [X] Each member needs to add their photo or avatar for their bio.
