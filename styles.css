@@ -77,10 +77,12 @@ header nav button {
     border-radius: 5px;
     cursor: pointer;
     margin: 0 5px;
+    transition: padding 0.5s;
 }
 
 header nav button:hover {
     background: #0056b3;
+    padding: 15px 20px;
 }
 
 /* Flex container for team bios and vision sections */
