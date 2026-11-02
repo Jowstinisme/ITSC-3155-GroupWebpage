@@ -60,6 +60,15 @@ header nav {
     aspect-ratio: 1 / 1;
 }
 
+/* Keep moodboards inside the bio card */
+.moodboard {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 8px;
+    margin: 1rem auto 0;
+}
+
 header nav button {
     background: #007BFF;
     color: white;
